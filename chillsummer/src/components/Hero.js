@@ -2,7 +2,7 @@ import {useState} from 'react'
 import {Button} from 'react-bootstrap'
 
 const Hero = () => {
-    const [video,setVideo]=useState([
+    const video=[
             
             "https://vod-progressive.akamaized.net/exp=1624364902~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F3776%2F17%2F443882065%2F1944356381.mp4~hmac=4ab85881aec55f14c6f925950e1d52fe68aa4a5c807b72763b76d779f840ff6f/vimeo-prod-skyfire-std-us/01/3776/17/443882065/1944356381.mp4?download=1&filename=production+ID%3A5006160.mp4",
         
@@ -11,7 +11,7 @@ const Hero = () => {
             "https://vod-progressive.akamaized.net/exp=1624364668~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F530%2F17%2F427654991%2F1855027979.mp4~hmac=04d6478d0cf34f34421b61e836b45088b9425712c25da2945ee34d7d4112a880/vimeo-prod-skyfire-std-us/01/530/17/427654991/1855027979.mp4?download=1&filename=production+ID%3A4611986.mp4"
 
            
-])
+]
   function refresh(){
    
      window.var = Math.floor(Math.random() *  4);
