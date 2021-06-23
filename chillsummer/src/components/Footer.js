@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container,Row,Col} from 'react-bootstrap'
-import { Facebook,Twitter,Instagram,Slack,Youtube,Whatsapp } from 'react-bootstrap-icons';
+import { Facebook,Twitter,Instagram,Slack,Youtube,Whatsapp } from 'react-bootstrap-icons'
 
 const Footer = () => {
     return (
